@@ -1,0 +1,101 @@
+/* .navbar{ background:#F97300;}
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;} */
+
+
+/* Section-2: Carousel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+/* Section-3: Cards */
+.section-3 .container h1 {
+    font-size: 6vmin;
+    padding-top: 14vmin;
+  }
+
+  .section-3 .team {
+    padding: 10vmin 4vmin;
+  }
+
+  .section-3 .card {
+    width: 22em;
+    margin-top: 10vmin;
+  }
+
+  .section-3 .carousel-item {
+    padding-left: 3rem;
+  }
+
+/* Section-4: Font Awesome */
+.section-a {
+    padding: 30px 0;
+    text-align: center;
+    background: #1a8c97;
+    color: #ffffff; }
+    .section-a .fa {
+      font-size: 60px; }
+
+/* Section-6: Progress Bar */
+.progress {
+    position: relative;
+	height: 25px;
+}
+.progress > .progress-type {
+	position: absolute;
+	left: 0px;
+	font-weight: 800;
+	padding: 3px 30px 2px 10px;
+	color: rgb(255, 255, 255);
+	background-color: rgba(25, 25, 25, 0.2);
+}
+.progress > .progress-completed {
+	position: absolute;
+	right: 0px;
+	font-weight: 800;
+	padding: 3px 10px 2px;
+}
+
+/* Section-7: Footer */
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+  }
+  
+  footer p > span {
+    color: #ff512f;
+  }
+  
+  footer input {
+    border: none !important;
+  }
+  
+  footer input::placeholder {
+    color: white !important;
+  }
+  
+  footer .input-group .input-group-text {
+    background:   rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  
+  footer .column i {
+    color: #dd2476;
+  }
+
